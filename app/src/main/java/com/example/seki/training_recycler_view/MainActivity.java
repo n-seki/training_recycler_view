@@ -30,7 +30,10 @@ public class MainActivity extends AppCompatActivity implements RecyclerListFragm
 
     @Override
     public void onClickItem(Data data) {
-        mTitle.setText(data.title);
-        mDescription.setText(data.description);
+        mTitle.setText(data.title.get());
+        mDescription.setText(data.description.get());
+
+        int clickCount = Integer.parseInt(data.clickCount.get(), 10);
+        data.clickCount.set(String.valueOf(++clickCount));
     }
 }
