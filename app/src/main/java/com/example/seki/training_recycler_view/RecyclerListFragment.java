@@ -29,7 +29,7 @@ public class RecyclerListFragment extends Fragment implements ListAdapter.ItemCl
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        createDateSet();
+        createDataSet();
     }
 
     @Override
@@ -65,7 +65,7 @@ public class RecyclerListFragment extends Fragment implements ListAdapter.ItemCl
     }
 
 
-    void createDateSet() {
+    void createDataSet() {
         mDataSet = new ArrayList<>();
         mDataSet.add(new Data("1", "first"));
         mDataSet.add(new Data("2", "second"));
