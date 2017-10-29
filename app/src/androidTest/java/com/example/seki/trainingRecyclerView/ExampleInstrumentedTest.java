@@ -1,4 +1,4 @@
-package com.example.seki.training_recycler_view;
+package com.example.seki.trainingRecyclerView;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -4,7 +4,7 @@
     <data>
         <variable
             name="data"
-            type="com.example.seki.training_recycler_view.Data" />
+            type="com.example.seki.trainingRecyclerView.Data" />
 
     </data>
     <RelativeLayout
