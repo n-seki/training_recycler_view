@@ -18,7 +18,7 @@ class ListAdapter(dataSet: MutableList<Data>, clickListener: ItemClickListener) 
     }
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val binding: com.example.seki.trainingRecyclerView.databinding.ListItemBinding = DataBindingUtil.bind(view)
+        val binding: com.example.seki.trainingRecyclerView.databinding.ListItemBinding = DataBindingUtil.bind(view)!!
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
