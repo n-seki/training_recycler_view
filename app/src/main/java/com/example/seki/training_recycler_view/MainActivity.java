@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity implements RecyclerListFragm
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mTitle = (TextView)findViewById(R.id.title);
-        mDescription = (TextView)findViewById(R.id.description);
+        mTitle = (TextView)findViewById(R.id.selected_title);
+        mDescription = (TextView)findViewById(R.id.selected_description);
 
         if (savedInstanceState == null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();

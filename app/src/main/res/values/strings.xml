@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">training_recycler_view</string>
+    <string name="title">TITLE</string>
+    <string name="description">DESCRIPTION</string>
 </resources>

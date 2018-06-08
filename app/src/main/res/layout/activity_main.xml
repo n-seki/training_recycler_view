@@ -15,10 +15,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="TITLE "/>
+            android:text="@string/title"/>
 
         <TextView
-            android:id="@+id/title"
+            android:id="@+id/selected_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/label_title"
@@ -30,10 +30,10 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/label_title"
             android:textSize="20sp"
-            android:text="DESCRIPTION "/>
+            android:text="@string/description"/>
 
         <TextView
-            android:id="@+id/description"
+            android:id="@+id/selected_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/label_title"
